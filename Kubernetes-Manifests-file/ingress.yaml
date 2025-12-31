@@ -11,7 +11,8 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - http:
+    - host: amanpathakdevops.study
+      http:
         paths:
           - path: /api
             pathType: Prefix
